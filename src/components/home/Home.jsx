@@ -35,7 +35,7 @@ const Home = () => {
       }
     }
   };
-  console.log(selectedCourse);
+  //   console.log(selectedCourse);
 
   return (
     <div className="bg-[#F3F3F3]">
@@ -43,7 +43,7 @@ const Home = () => {
         Course Registration
       </h1>
 
-      <div className="container mx-auto flex gap-20 ">
+      <div className="container mx-auto flex gap-20 pb-20">
         <div className="  grid grid-cols-3 gap-10">
           {courses.map((course) => (
             <div key={course.id}>
