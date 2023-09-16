@@ -1,9 +1,10 @@
 import "./App.css";
+import Home from "./components/home/Home";
 
 function App() {
   return (
     <>
-      <h1 className="text-4xl font-bold">React Course Registration</h1>
+      <Home></Home>
     </>
   );
 }
